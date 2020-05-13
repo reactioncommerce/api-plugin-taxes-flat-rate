@@ -59,7 +59,6 @@ async function getTaxesForShop(collections, order) {
   // Also add a name. Someday should allow a shop operator to enter the name.
   return taxDocs.map((doc) => ({
     ...doc,
-    rate: doc.rate / 100,
     name: `${doc.postal || ""} ${doc.region || ""} ${doc.country || ""}`.trim().replace(/\s\s+/g, " ")
   }));
 }
