@@ -25,17 +25,17 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@reactioncommerce/api-utils": "^1.9.0",
-    "@reactioncommerce/random": "^1.0.2",
+    "@reactioncommerce/api-utils": "file:../api-utils",
+    "@reactioncommerce/random": "file:../random",
     "@reactioncommerce/reaction-error": "^1.0.1",
     "simpl-schema": "^1.5.7"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
-    "@reactioncommerce/babel-remove-es-create-require": "~1.0.0",
-    "@reactioncommerce/data-factory": "~1.0.1",
-    "@reactioncommerce/eslint-config": "~2.1.0",
+    "@reactioncommerce/babel-remove-es-create-require": "file:../babel-remove-es-create-require",
+    "@reactioncommerce/data-factory": "file:../data-factory",
+    "@reactioncommerce/eslint-config": "file:../eslint-config",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.4.0",
     "eslint-plugin-import": "^2.18.2",
