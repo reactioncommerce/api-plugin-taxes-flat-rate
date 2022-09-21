@@ -1,3 +1,7 @@
+# This repository is deprecated
+
+This code is now located in our monorepo [here](https://github.com/reactioncommerce/reaction/tree/trunk/packages/api-plugin-taxes-flat-rate)
+
 # api-plugin-taxes-flat-rate
 
 [![npm (scoped)](https://img.shields.io/npm/v/@reactioncommerce/api-plugin-taxes-flat-rate.svg)](https://www.npmjs.com/package/@reactioncommerce/api-plugin-taxes-flat-rate)
